@@ -1,0 +1,30 @@
+{
+  "name": "mcp-semantic-gateway",
+  "version": "0.1.0",
+  "description": "Policy-aware MCP semantic gateway prototype focused on schema reduction and token cost savings.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "npm run build && node --test ./test/routing.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "gateway",
+    "semantic-routing",
+    "azure",
+    "cost-optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
+}
