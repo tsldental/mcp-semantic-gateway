@@ -2,6 +2,12 @@
 
 `mcp-semantic-gateway` is a prototype for a policy-aware MCP gateway that **reduces schema bloat before an enterprise agent call reaches the expensive model**.
 
+## What this repository is right now
+
+This repository is a **runnable local MVP**, not a hosted Azure service.
+
+Anyone can clone it, run it locally, and see the routing and cost-savings logic work on their machine. It is meant to demonstrate the product concept, not to pretend that the managed Azure version already exists.
+
 The central idea is simple:
 
 > If an enterprise has hundreds of MCP tools, the model should not see hundreds of tool schemas on every request.
